@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+depencies {
+    testImplementation(
+            "com.codeborne:selenide:7.9.3"
+    )
+}
